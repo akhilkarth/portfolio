@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+div{
+    text-align: center;
+    padding-bottom: 7%;
+}
+.ak{
+    background-image: linear-gradient(43deg,#4158D0 0%,#C850C0 46%,#FFCC70 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.h1_header{
+    display: block;
+    font-size: 60px;
+    font-weight: 500;
+    background-image: linear-gradient(43deg,#4158D0 0%,#C850C0 46%,#FFCC70 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+/* nav bar */
+nav{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    
+}
+li,h1,ul{
+    display: inline;
+}
+ul{
+    margin-left: 60%;
+    
+}
+li{
+    margin-left: 20px;
+    font-size: 20px;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+.navLink:hover{
+    background-image: linear-gradient(43deg,#4158D0 0%,#C850C0 46%,#FFCC70 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* home */
+.profilePic{
+    text-align: center; 
+    padding-bottom:15px;
+}
+
+.resume{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-style: solid;
+    border-color:rgb(255, 0, 255);
+}
+
+.resume:hover{
+    background-image: linear-gradient(43deg,#4158D0 0%,#C850C0 46%,#FFCC70 100%);
+    -webkit-background-clip: content;
+    color: black; 
+}
+
+/* About us */
+
+.about_para{
+    display: inline-block;
+    padding: 20px;
+    font-size: 30px;
+    width: 55%;
+    
+}
+
+/* Skills */
+
+.skills-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.skill {
+    margin-bottom: 30px;
+}
+
+.skill-name {
+    text-align: left;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.progress-bar-container {
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+
+.progress-bar {
+    height: 15px;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(255, 0, 255); /* Green background for progress */
+    width: 80%; /* Change this value for different percentages */
+    
+}
+
+/* Projects */
+.box{
+    border-color:  rgb(255, 0, 255);
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 320px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.box-p{
+    padding: 15px;
+}
+
+/* Contact me */
+.formForContact{
+    padding-left: 15%;
+}
+label{
+    margin-top: 40px;
+    display: block;
+    text-align: left;
+    padding-left: 20%;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+input,textarea{
+    display: block;
+    width: 40%;
+    height: 40px;
+    padding-left: 25px;
+    background-color: rgb(47, 47, 48);
+    border-radius: 4px;
+    border-width: 0px;
+    margin-left: 20%;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+}
+textarea {
+    width: 40%;
+    height: 20%;
+    padding-top: 20px;
+    padding-left: 25px;
+    border-radius: 4px;
+    background-color: rgb(47, 47, 48);
+    border: 1px solid black;
+}
+button {
+    display: block;
+    text-align: left;
+    margin-top: 40px;
+    margin-left:20% ;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    border-style: solid;
+    border-color:rgb(255, 0, 255);
+}
+button:hover{
+    background-image: linear-gradient(43deg,#4158D0 0%,#C850C0 46%,#FFCC70 100%);
+    -webkit-background-clip: content;
+    color: black;
+}
+.profileSection{
+    margin-top: 20px;
+}
+.profile{
+    display: block;
+    text-align: left;
+    margin-left:30% ;
+    font-size:20px ;
+    padding: 10px;
+}
