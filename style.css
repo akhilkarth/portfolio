@@ -113,10 +113,11 @@ a{
 
 .progress-bar {
     height: 15px;
-    border-radius: 10px;
-    color: black;
-    background-color: rgb(255, 0, 255); /* Green background for progress */
+    border-radius: 10px;/* Green background for progress */
     width: 80%; /* Change this value for different percentages */
+    background-image: linear-gradient(43deg,#4158D0 0%,#C850C0 46%,#FFCC70 100%);
+    -webkit-background-clip: content;
+    color: transparent;
     
 }
 
