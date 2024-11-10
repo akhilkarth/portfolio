@@ -3,7 +3,7 @@
 Welcome to my portfolio! This project showcases my skills, projects, and passion for web development, designed to provide a professional overview of my experience and background in technology.
 
 ## 🌐 Live Demo
-You can view the live demo [here](#https://portfolio-akhil-ks-projects.vercel.app/) (update this link with the deployment URL if available).
+You can view the live demo [here](https://portfolio-akhil-ks-projects.vercel.app/).
 
 ## 📜 About Me
 
