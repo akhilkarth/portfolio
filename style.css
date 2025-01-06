@@ -13,6 +13,19 @@ div{
     background-image: linear-gradient(43deg,#4158D0 0%,#C850C0 46%,#FFCC70 100%);
     -webkit-background-clip: text;
     color: transparent;
+    background-size: 200% 200%;
+    animation: gradientAnimation 3s infinite linear;
+}
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%; /* Start at the left */
+    }
+    30% {
+        background-position: 100% 40%; /* Move to the right */
+    }
+    100% {
+        background-position: 0% 50%; /* Loop back to the start */
+    }
 }
 .h1_header{
     display: block;
@@ -21,6 +34,8 @@ div{
     background-image: linear-gradient(43deg,#4158D0 0%,#C850C0 46%,#FFCC70 100%);
     -webkit-background-clip: text;
     color: transparent;
+    background-size: 200% 200%;
+    animation: gradientAnimation 3s infinite linear;
 }
 /* nav bar */
 nav{
@@ -39,8 +54,6 @@ ul{
 li{
     margin-left: 20px;
     font-size: 20px;
-    
-    
 }
 a{
     text-decoration: none;
@@ -50,6 +63,8 @@ a{
     background-image: linear-gradient(43deg,#4158D0 0%,#C850C0 46%,#FFCC70 100%);
     -webkit-background-clip: text;
     color: transparent;
+    background-size: 200% 200%;
+    animation: gradientAnimation 3s infinite linear;
 }
 
 /* home */
@@ -69,12 +84,15 @@ a{
     text-decoration: none;
     border-style: solid;
     border-color:rgb(255, 0, 255);
+    
 }
 
 .resume:hover{
     background-image: linear-gradient(43deg,#4158D0 0%,#C850C0 46%,#FFCC70 100%);
     -webkit-background-clip: content;
     color: black; 
+    background-size: 200% 200%;
+    animation: gradientAnimation 3s infinite linear;
 }
 
 /* About us */
@@ -118,9 +136,11 @@ a{
     background-image: linear-gradient(43deg,#4158D0 0%,#C850C0 46%,#FFCC70 100%);
     -webkit-background-clip: content;
     color: transparent;
+
+    background-size: 200% 200%; /* Ensure the gradient covers enough space to animate */
+    animation: gradientAnimation 3s infinite linear;
     
 }
-
 /* Projects */
 .box{
     border-color:  rgb(255, 0, 255);
@@ -187,6 +207,8 @@ button:hover{
     background-image: linear-gradient(43deg,#4158D0 0%,#C850C0 46%,#FFCC70 100%);
     -webkit-background-clip: content;
     color: black;
+    background-size: 200% 200%;
+    animation: gradientAnimation 3s infinite linear;
 }
 .profileSection{
     margin-top: 20px;
