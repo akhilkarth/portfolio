@@ -56,7 +56,3 @@ Feel free to reach out for collaborations, project inquiries, or general network
 ## 📝 License
 
 This project is open-source and available under the MIT License.
-
----
-
-This `README.md` provides a clear overview of your portfolio, allowing visitors to quickly learn about your background, skills, and projects.
